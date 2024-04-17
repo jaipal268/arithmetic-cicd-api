@@ -24,7 +24,8 @@ output application/json
 	Addition: (vars.num1 as Number + vars.num2 as Number),
 	Subraction: (vars.num1 as Number - vars.num2 as Number),
 	Multiplication: (vars.num1 as Number * vars.num2 as Number),
-	Division: (vars.num1 as Number / vars.num2 as Number)
+	Division: (vars.num1 as Number / vars.num2 as Number),
+	EndMessage: "The API is succesfully running without error"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
